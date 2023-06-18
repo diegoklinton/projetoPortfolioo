@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family= Krona+One & family= Montserrat:wght@400;600 & display=swap') ;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #122642;
+    color: #DDE6ED;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+.Cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.Cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.Cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #22D4FD;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.apresentacao {
+    
+    display: flex;
+    padding: 5% 15%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apresentacao__conteudo {
+    width: 615 px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.nomeClientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    margin: 15px;
+    padding: 20px;
+}
+
+.lineInput {
+    font-size: 5%;
+    padding: 2%;
+    font-family: 'krona one', sans-serif;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'krona one', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+h2 {
+    font-family: 'Montserrat';
+}
+
+.apresentacao__links__subtitulo{
+    
+    font-family: 'Krona one', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__links__links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #122642;
+    width: 378px;    
+    border: 3px;
+    border-radius: 8px;
+    border-style: outset;
+    border-color: #22D4FD;
+    font-size: 24px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.apresentacao__links__links:hover {
+    background-color:#5d97a5;       
+}
+
+.rodape {
+    background-color: #22D4FD ;
+    text-align: center;
+    padding: 24px;
+    color: #122642;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+@media (max-width: 1200){
+    .Cabecalho{
+        padding: 10%;
+        
+    }
+
+    .Cabecalho__menu{
+         justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+}
