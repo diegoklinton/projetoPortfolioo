@@ -119,6 +119,10 @@ h2 {
     background-color:#5d97a5;       
 }
 
+.fotoPerfil {
+    border-radius: 100px;
+}
+
 .rodape {
     background-color: #22D4FD ;
     text-align: center;
