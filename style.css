@@ -75,6 +75,20 @@ body {
     
 }
 
+.apresentacao__conteudo__titulo__curriculo {
+    font-size: 36px;
+    font-family: 'krona one', sans-serif;
+    
+    margin-top: 35px;
+}
+
+.apresentacao__conteudo__curriculo{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+    
+}
+
 
 
 .apresentacao__links {
@@ -88,6 +102,10 @@ body {
 
 h2 {
     font-family: 'Montserrat';
+}
+
+.conteudo__curriculo{
+    margin: 5% 15%;
 }
 
 .apresentacao__links__subtitulo{
